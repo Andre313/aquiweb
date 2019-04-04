@@ -87,3 +87,37 @@
 {
 	display:block
 }
+
+/*  ---------------------------------------   */
+
+.bgimg-1, .bgimg-2, .bgimg-3 
+{
+  position: relative;
+  opacity: 0.85;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1
+{
+	background-image: url(asset-path("bgimage1.jpg"));
+	min-height: 400px;
+	width: 100%
+}
+
+.bgimg-2
+{
+	background-image: url(asset-path("bgimage2.jpg"));
+	min-height: 400px;
+	width: 100%
+}
+
+.bgimg-3
+{
+	background-image: url(asset-path("bgimage3.jpg"));
+	min-height: 400px;
+	width: 100%
+}
